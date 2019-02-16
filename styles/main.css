@@ -1,0 +1,83 @@
+
+
+body {
+  background: #fafafa;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333; }
+
+#auto-input {
+  width: 600px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 16px;
+  background: url(../images/loop.png) no-repeat 10px 3px;
+  padding-left: 42px;
+  color: rgba(100, 101, 101, 0.7);
+  border-radius: 25px;
+  outline: none;
+  background-clip: padding-box; }
+  #auto-input.active {
+    border-radius: 25px 25px 0px 0px;
+    background-clip: padding-box; }
+
+select {
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 10px; }
+
+#auto-results {
+  background: #bbbbbb;
+  width: 645px;
+  margin-left: 2px;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  background-clip: padding-box; }
+  #auto-results .fuzzy {
+    transition: a11 1s linear;
+    background-color: #fafafa;
+    width: 96.8%;
+    position: relative;
+    left: -1x;
+    display: block;
+    outline: 1px #000000 solid;
+    font-size: 12px;
+    background-clip: padding-box;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 20px; }
+  #auto-results li {
+    list-style: none;
+    height: 38px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all .11s ease-out; }
+    #auto-results li img {
+      width: 38px;
+      margin-top: 7px;
+      margin-left: 5px;
+      float: left; }
+      #auto-results li img.loop {
+        width: 20px;
+        height: 20px; }
+    #auto-results li span {
+      text-align: center;
+      display: block;
+      height: 38px;
+      line-height: 38px;
+      width: 33%;
+      float: left; }
+    #auto-results li.highlighten {
+      transition: all .4s ease-in;
+      box-shadow: inset 1px 0px 1px 2px rgba(100, 101, 67, 0.5), inset 700px 0px 1px 2px rgba(115, 101, 67, 0.5);
+      color: #fefefe; }
+  #auto-results .bolder {
+    margin-left: 20px;
+    font-weight: 700; }
+  #auto-results.hidden {
+    transition: all 1s ease-out;
+    opacity: 0; }
+
+/*# sourceMappingURL=main.css.map */

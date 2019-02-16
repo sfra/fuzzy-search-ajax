@@ -1,6 +1,6 @@
 # ajaz, ajzx: Did you mean ajax? 
 
-![Animation](https://frankyy.000webhostapp.com/images/didyoumean.gif)
+![didyoumean](https://user-images.githubusercontent.com/4636028/52898387-8b882680-31dd-11e9-982d-599e57718e36.gif)
 
 
 Clone the repository to the place on the server (php support is required).

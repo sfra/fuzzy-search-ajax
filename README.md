@@ -1,8 +1,12 @@
 # ajaz, ajzx: Did you mean ajax? 
 
 
-
 ![didyiumean](https://user-images.githubusercontent.com/4636028/53097977-ee9df400-3522-11e9-9e2f-f7b3874a784d.gif)
+
+
+
+
+
 Clone the repository to the place on the server (php support is required).
 
 If you want to install [require.js](http://requirejs.org/) dependency locally just put into console

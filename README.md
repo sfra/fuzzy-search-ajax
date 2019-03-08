@@ -14,7 +14,7 @@ If you want to install [require.js](http://requirejs.org/) dependency locally ju
 bower install && npm install
 ```
 ### Usage
-For of all import the database didyoumean.sql which contains the implementation of [Levenshtein distance function](https://en.wikipedia.org/wiki/Levenshtein_distance) (taken from [openquery.blog](https://en.wikipedia.org/wiki/Levenshtein_distance)). In seach.php put the path to the file containing variables: $user and $password containing access data to imported database.
+For of all import the database didyoumean.sql which contains the implementation of [Levenshtein distance function](https://en.wikipedia.org/wiki/Levenshtein_distance) (taken from [Open Query blog](https://openquery.com.au/?s=Levenshtein)). In seach.php put the path to the file containing variables: $user and $password containing access data to imported database.
 In your index.php file (or the file in which you want to put gallery).
 Then put a file named itemTemplate.html into the folder config. It contains (according to it name) a template of an item filled by the values of the records from the database:
 filled by the fields from the database. For example:
